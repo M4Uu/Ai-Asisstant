@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "https://discord.com/api/oauth2/authorize?client_id=1166770895768014848&permissions=8&scope=bot",
+            "request": "launch",
+            "url": "https://discord.com/api/oauth2/authorize?client_id=1166770895768014848&permissions=8&scope=bot"
+        }
+    ]
+}
