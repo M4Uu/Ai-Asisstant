@@ -50,8 +50,6 @@ client.on("ready", () =>{
     console.log(`¡${client.user.tag} al servicio!`);
 });
 
-
-
 client.login(config.token).then(async () => {
     await loadEvents(client)
     await loadCommands(client)

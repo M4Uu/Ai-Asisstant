@@ -22,7 +22,7 @@ async function loadPrefix(client) {
                         const args = message.content.slice(prefix.length).trim().split(/ +/);
                         const prefixcmd = args.shift().toLowerCase();
                         if(commandFile.name === prefixcmd)
-                            commandFile.run(client, message.channel.id, client.ws.ping)
+                            commandFile.run(client, message)
                         }
                 });
                 table.addRow(file,'Loaded');
